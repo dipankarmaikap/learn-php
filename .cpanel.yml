@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dipanka2/repositories/learn-php
+    - /bin/cp -r * $DEPLOYPATH
